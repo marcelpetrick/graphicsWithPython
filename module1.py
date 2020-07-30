@@ -144,4 +144,14 @@ def test3():
 
     plt.show()
 
-test3()
+#test3()
+#----------------
+
+def test4():
+    import matplotlib.pyplot as plt
+    names=["J", "MA", "GT"]
+    values=[10,20,30]
+    plt.bar(names, values)
+    plt.show()
+
+test4()

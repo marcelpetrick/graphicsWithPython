@@ -50,3 +50,6 @@ tkinter
 
 - show_gif.py with clokc checked
 - - also the mathematical function plotter shown: worked (see especially: eval(self.term.get()) )
+
+
+- demo_sinus.py
