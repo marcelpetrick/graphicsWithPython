@@ -133,8 +133,12 @@ def polygon():
 
 def test3():
     import matplotlib.pyplot as plt
+    import numpy as np
 
-    plt.plot([1,2,3,4],[1,2,3,4])
+    plt.plot([1,2,3,4],[1,4,9,16]) # regular line
+    plt.plot([1,2,3,4],[1,2,3,4], "b>") # triangles to the right
+    x = np.linspace(0, 10, 100)
+    plt.plot(x, x**2)
     plt.xlabel("x-Axis")
     plt.xlabel("y-Axis")
 
