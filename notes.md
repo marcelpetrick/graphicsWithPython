@@ -21,3 +21,13 @@ others:
 - IDLE
 - Spyder (from Jupyter)
 
+
+Preparation:
+$ pip install matplotlib pygmes
+ tkinter problem?
+ "The tkinter package (“Tk interface”) is the standard Python interface to the Tk GUI toolkit. Both Tk and tkinter are available on most Unix platforms, as well as on Windows systems. (Tk itself is not part of Python; it is maintained at ActiveState.)"
+- tkinter was aölready there: run
+- $ python -m tkinter
+- for a small preview window as demonstration
+
+Plot with a marker; sin, cos, tan ... also quadratic things

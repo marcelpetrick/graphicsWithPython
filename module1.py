@@ -9,9 +9,24 @@
 # Licence:     GPL v3.0
 #-------------------------------------------------------------------------------
 
-def main():
-    print("foo")
-    pass
+# def main():
+#     print("yes, works")
+#     pass
+#
+# if __name__ == '__main__':
+#     main()
+#     test0()
+#
+# #------------------------
 
-if __name__ == '__main__':
-    main()
+def test0():
+    import matplotlib.pyplot as plt
+
+    plt.plot([1,2,3,4,5],[1,4,9,16,25])
+    plt.xlabel("x-Axis")
+    plt.xlabel("y-Axis")
+
+    plt.show()
+
+
+test0()
