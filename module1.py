@@ -29,4 +29,14 @@ def test0():
     plt.show()
 
 
-test0()
+#test0()
+
+#-------------
+from tkinter import * # for Python 3: tkinter
+
+root = Tk()
+w = Label(root, text="hello world!")
+w.pack()
+
+root.mainloop()
+#-----------

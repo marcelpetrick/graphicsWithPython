@@ -31,3 +31,15 @@ $ pip install matplotlib pygmes
 - for a small preview window as demonstration
 
 Plot with a marker; sin, cos, tan ... also quadratic things
+
+
+problems with matplotlib for other users; therefore we switch immediately to tkinter:
+
+see: C:\Users\husband-boy\Downloads\VHS_PythonGraphics\python\Python\tkinter
+digitaluhr.pyw
+
+tkinter
+-------
+
+- important for RaspberryPI
+- 
