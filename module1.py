@@ -154,4 +154,23 @@ def test4():
     plt.bar(names, values)
     plt.show()
 
-test4()
+#test4()
+#----------------
+
+def test5_scatterplot():
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    np.random.seed(20)
+    data_1 = np.random.normal(100, 10, 200)
+    data_2 = np.random.normal(80, 30, 200)
+
+    names = ["a", "b", "c", "d"]
+    values1 = [30, 50, 20, 30]
+
+    plt.plot(data_1, data_2)
+    plt.bar(data_1, data_2, color = "red")
+
+    plt.show()
+
+test5_scatterplot()
