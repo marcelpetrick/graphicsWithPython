@@ -42,4 +42,7 @@ tkinter
 -------
 
 - important for RaspberryPI
+- https://en.wikipedia.org/wiki/Tkinter - for some more information
+mainloop is blocking: https://stackoverflow.com/questions/29158220/tkinter-understanding-mainloop
+- [digitaluhr.py](C:/Users/husband-boy/Downloads/VHS_PythonGraphics/programs/tkinter/digitaluhr.py) - as a demonstration
 - 

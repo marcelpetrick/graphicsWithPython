@@ -76,6 +76,7 @@ def tkinter1(): # multiwindows
     wl3 = Label(window3, text="33°C", font = window3.font)
     window3.geometry('300x50+200+400') # first size, then position
     wl3.pack()
+    window0.geometry()
 
     # just start the main loop here
     window0.mainloop()
@@ -84,5 +85,26 @@ def tkinter1(): # multiwindows
     window3.mainloop()
 
 
-tkinter1()
+#tkinter1()
+#-----------
+
+from tkinter import *
+from time import *
+import _thread
+
+class Uhr(object):
+  def __init__(self):
+    self.fenster = Tk()
+    self.zeit = StringVar()
+    self.anzeige = Label(self.fenster, textvariable=self.zeit, font=("Arial","20"))
+    self.anzeige.pack()
+    _thread.start_new_thread(self.aktualisieren, ())
+    self.fenster.mainloop()
+
+  def aktualisieren (self):
+    while True:
+      self.zeit.set(strftime("%X"))
+      sleep(1)
+
+uhr = Uhr()
 #-----------
