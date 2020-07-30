@@ -28,7 +28,6 @@ def test0():
 
     plt.show()
 
-
 #test0()
 
 #-------------
@@ -128,4 +127,17 @@ def polygon():
 
     mainloop()
 
-polygon()
+#polygon()
+
+#------------------
+
+def test3():
+    import matplotlib.pyplot as plt
+
+    plt.plot([1,2,3,4],[1,2,3,4])
+    plt.xlabel("x-Axis")
+    plt.xlabel("y-Axis")
+
+    plt.show()
+
+test3()
