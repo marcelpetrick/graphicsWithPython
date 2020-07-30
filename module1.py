@@ -72,7 +72,8 @@ def tkinter1(): # multiwindows
 
     window3 = Tk()
     window3.title("Bedroom")
-    wl3 = Label(window3, text="33°C")
+    window3.font=('Arial', 44, 'normal')
+    wl3 = Label(window3, text="33°C", font = window3.font)
     window3.geometry('300x50+200+400') # first size, then position
     wl3.pack()
 
