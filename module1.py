@@ -35,8 +35,12 @@ def test0():
 from tkinter import * # for Python 3: tkinter
 
 root = Tk()
-w = Label(root, text="hello world!")
-w.pack()
+w = Label(root,
+          text="Franz jagt den Fuchs im verwahrlosten Wald",
+          fg = "red",
+          bg = "blue",
+          font = "Times")
+w.pack() # how to fill the window; left, right, ..
 
-root.mainloop()
+root.mainloop() # keeps the window open and active
 #-----------
