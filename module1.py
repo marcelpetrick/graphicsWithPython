@@ -41,6 +41,8 @@ w = Label(root,
           bg = "blue",
           font = "Times")
 w.pack() # how to fill the window; left, right, ..
+y = Label(text="second label") # adds one more label at the bottom
+y.pack()
 
 root.mainloop() # keeps the window open and active
 #-----------
