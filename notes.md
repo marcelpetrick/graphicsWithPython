@@ -26,7 +26,7 @@ Preparation:
 $ pip install matplotlib pygmes
  tkinter problem?
  "The tkinter package (“Tk interface”) is the standard Python interface to the Tk GUI toolkit. Both Tk and tkinter are available on most Unix platforms, as well as on Windows systems. (Tk itself is not part of Python; it is maintained at ActiveState.)"
-- tkinter was aölready there: run
+- tkinter was already there: run
 - $ python -m tkinter
 - for a small preview window as demonstration
 
@@ -51,5 +51,16 @@ tkinter
 - show_gif.py with clokc checked
 - - also the mathematical function plotter shown: worked (see especially: eval(self.term.get()) )
 
-
 - demo_sinus.py
+
+## second day: 20200806
+
+now: plot with scatterplot
+C:\Users\husband-boy\Downloads\VHS_PythonGraphics\programs\matplotlib
+scatter_simple.py
+
+next: grid.py (copied from the tutorial files)
+- show the plots; zooming and changing the viewport is possible
+-  via the menu the properties of the cvhart are possible
+- 3d graphics (plots) are possible as well: 3d-curves; or temperature-pattern on a surface
+- 
