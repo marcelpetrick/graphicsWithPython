@@ -65,3 +65,6 @@ next: grid.py (copied from the tutorial files)
 
 ### now: pygame
 
+- SG says that pygame is the most unreliable lib from all three
+- allows to create animated graphics, graphical visualisations and games
+- 
