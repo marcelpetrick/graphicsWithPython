@@ -25,12 +25,15 @@ def renderPieChart(fileContentDict):
         # chart creation
         fig1, ax1 = plt.subplots()
         ax1.pie(sizes,
-                #explode=explode,
-                labels=labels,
-                autopct='%1.1f%%',
-                shadow=False,
-                startangle=90)
-        ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+                labels = labels,
+                autopct = '%1.0f%%',
+                shadow = False,
+                startangle = 90,
+                colors = labels
+                )
+        ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle
+
+        plt.title("color preferences from a random group of people")
 
         plt.show() # will clear the plot, so don't uncomment if this should be saved
 
