@@ -49,13 +49,12 @@ tkinter
 - more information: https://docs.python.org/3/library/tkinter.html#tkinter-life-preserver
 
 - show_gif.py with clokc checked
-- - also the mathematical function plotter shown: worked (see especially: eval(self.term.get()) )
-
+- also the mathematical function plotter shown: worked (see especially: eval(self.term.get()) )
 - demo_sinus.py
 
 ## second day: 20200806
 
-now: plot with scatterplot
+###  now: plot with scatterplot
 C:\Users\husband-boy\Downloads\VHS_PythonGraphics\programs\matplotlib
 scatter_simple.py
 
@@ -63,4 +62,6 @@ next: grid.py (copied from the tutorial files)
 - show the plots; zooming and changing the viewport is possible
 -  via the menu the properties of the cvhart are possible
 - 3d graphics (plots) are possible as well: 3d-curves; or temperature-pattern on a surface
-- 
+
+### now: pygame
+
