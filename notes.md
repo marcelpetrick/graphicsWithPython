@@ -67,4 +67,12 @@ next: grid.py (copied from the tutorial files)
 
 - SG says that pygame is the most unreliable lib from all three
 - allows to create animated graphics, graphical visualisations and games
-- 
+- Tetromina as tetris-clone (see for some final program)
+
+elemental commands:  
+pygyme.draw.rect  
+pygame.draw.circle(..)  
+pygame.draw.line(..)
+
+see: analog_clock_experimental_01.py
+
